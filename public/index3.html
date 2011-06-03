@@ -1,0 +1,77 @@
+<html>
+<head> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="start/jquery-ui-start.css"></style>
+<link rel="stylesheet" type="text/css" href="stylesheets/design.css">
+<script src="text/javascript" src="javascripts/java.js"></script>
+	
+<title> Mrs. Crowley's Algebra 2 Class</title>
+
+</head>
+<body>
+	<div id="top"> 
+		<h1>Do Now Sheets</h1>
+	</div>
+	<SCRIPT>
+	$(function() {
+				$( ".pages", "index.html" ).click(function() { return false; });
+	});
+	</SCRIPT>
+
+	<div id="sidebar">
+			<div class="pages">
+				<h4><a href="index.html">Welcome_Page</a></h4>
+				<h4><a href="index2.html">Schedules</a></h4>
+				<h4><a href="index3.html">Do Now Sheets</a></h4>
+				<h4><a href="index4.html">Homework</a></h4>
+				<h4><a href="index5.html">Contact</a></h4>
+			</div>
+	</div>
+
+
+<script>
+$(function() {
+	$( "#donow" ).accordion({collapsible:true});
+});
+
+$(function() {
+	$( "#crowley_date" ).datepicker();
+});
+
+</script>
+
+	<div id="crowley"><p>Date:<INPUT id="crowley_date" type=text></div></p>
+	
+	<div id="main">
+	<div id="donow">
+		<h3><a href="#">Week of April 25th</a></h3>
+		<div>
+			<a href="donows/4_25_11.pdf">Monday Do Now</a><br/>
+			<a href="#">Tuesday Do Now</a><br/>
+			<a href="#">Wednesday Do Now</a><br/>
+			<a href="#">Thursday Do Now</a><br/>
+			<a href="#">Friday Do Now</a><br/>
+		</div>
+		
+		<H3><A href="#">Week of May 2nd</A></H3>
+		<div>
+			<a href="#">Monday Do Now</a><br/>
+			<a href="#">Tuesday Do Now</a><br/>
+			<a href="#">Wednesday Do Now</a><br/>
+			<a href="#">Thursday Do Now</a><br/>
+			<a href="#">Friday Do Now</a><br/>
+		</div>
+		
+		<h3><a href="#">Week of May 9th</a></h3>
+		<div>
+			<a href="#">Monday Do Now</a><br/>
+			<a href="#">Tuesday Do Now</a><br/>
+			<a href="#">Wednesday Do Now</a><br/>
+			<a href="#">Thursday Do Now</a><br/>
+			<a href="#">Friday Do Now</a><br/>
+		</div>
+	</div>
+	</div>
+	
+</body>

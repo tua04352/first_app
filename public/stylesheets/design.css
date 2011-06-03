@@ -1,0 +1,110 @@
+html{
+	background-color: #e0fdff;
+}
+
+body{
+	background-color:#e0fdff;
+	width:900px;
+	margin:auto;
+	font-family:georgia;
+}
+
+#top{
+	margin-top:50px;
+	margin-left:150px;
+	width:600px;
+	height:100px;
+	background-color:#77d5f7;
+	border-style: solid;
+	border-color:#0078ae;
+	border-width:5px;
+}
+
+#top h1{
+	color:#ffffff;
+	margin-left:10px;
+	float:left;
+}
+#top p {
+	color:#222222;
+	float:left;
+	position:relative;
+	top:20px;
+	left:200px;
+}
+#top img{
+	position:relative;
+	top:20px;
+	left:0px;
+	height:75px;
+}
+	
+
+#sidebar{
+	width:200px;
+	height:300px;
+	float:left;
+	border-style:solid;
+	border-color:#0078ae;
+	margin-top:50px 
+}
+
+#crowley{
+	margin-top:50px;
+	margin-bottom:100px;
+}
+#main{
+	width:690px;
+	height:300px;
+	float:left;
+	margin-top:50px;
+}
+
+#footer{
+	width:900px;
+	height:100px;
+}
+
+#footer a{
+	float:left;
+	margin: 0px 10px;
+}
+
+#schedule{
+	width:625px;
+	height:300px;
+	float:left;
+	margin-top:50px;
+	margin-left:50px;
+	}
+
+.clr{
+	clear:both;
+}
+
+.pages a {
+	color: #6eac2c;
+}
+.blue li {
+	color: #222222;
+}
+#table{
+	float:left;
+	margin-left: 20px;
+	background-color:#77d5f7;
+	border-color:#0078ae;	
+}
+
+#table td{
+	color: #222222;
+	width: 50px;
+	height: 50px;
+	text-align:center;
+}
+#days {
+	color:#222222;
+}
+
+#table th{
+	color:blue;
+}
