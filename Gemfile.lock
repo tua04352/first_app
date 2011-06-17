@@ -33,7 +33,7 @@ GEM
     configuration (1.2.0)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    heroku (2.2.9)
+    heroku (2.3.0)
       launchy (>= 0.3.2)
       rest-client (~> 1.6.1)
       term-ansicolor (~> 1.0.5)
